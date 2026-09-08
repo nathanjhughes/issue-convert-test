@@ -13,6 +13,7 @@ jobs:
         name: github-project-issue-to-sheets
         permissions:
           issues: read
+          contents: read
         steps:
         - name: github-project-issue-to-sheets
           id: github-project-issue-to-sheets
